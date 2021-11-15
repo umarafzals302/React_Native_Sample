@@ -1,0 +1,179 @@
+//en.json
+{
+  "global": {
+    "home": "Home",
+    "works": "Works",
+    "notificatioin": "Notifications",
+    "asset_register": "Asset Register"
+  },
+  "drawer": {
+    "account": "Account",
+    "logout": "Logout"
+  },
+  "splash": {
+    "app_name": "Environment | Data | Asset | Compliance"
+  },
+  "login": {
+    "login": "Login",
+    "forgot_password": "Forgot Password?",
+    "edacText": "EDAC Support"
+  },
+  "forgotPassword": {
+    "send": "Send",
+    "cancel": "Cancel",
+    "forgot_password": "Forgot Password?",
+    "forgot_description": "Enter your email and we'll send you instruction on how to reset your password."
+  },
+  "home_tab": {
+    "home": "Home",
+    "test_accepted_contractor": "Test Accepted Contractor",
+    "no_work_list_yet": "No Work list yet",
+    "new_work_instruction": "New Work Instructions",
+    "work_instruction_type": "Work Instructions by type"
+  },
+  "work_tab": {
+    "work_instruction": "Work Instructions",
+    "weekly": "WEEKLY",
+    "monthly": "MONTHLY",
+    "no_work_list_yet": "No Work instruction Found"
+  },
+  "work_tab_container": {
+    "detail": "Details",
+    "asset_list": "Asset List",
+    "report": "Report",
+    "attachment": "Attachments",
+    "history": "History",
+    "comment": "Comments",
+    "submitted": "SUPP INFO SUBMITTED"
+  },
+  "work_detail_tab": {
+    "client": "Client",
+    "site_address": "Site Address",
+    "work_order": "Work Order Id",
+    "task_id": "Task Id",
+    "contact": "Contact",
+    "phone": "Phone",
+    "notes": "Notes",
+    "works_deadline": "Works Deadline",
+    "document_deadline": "Document Deadline",
+    "occurance": "Occurence",
+    "priority": "Priority"
+  },
+  "work_asset_list_container": {
+    "asset_type": "Asset type*",
+    "assets": "Asset(s)*",
+    "save": "Save",
+    "period": "Period*",
+    "interval": "Number of Intervals*",
+    "intervalTime": "Interval Time*",
+    "ambient": "Ambient LAeq T (dB) 1*",
+    "ambientTwo": "Ambient LAeqT (dB) 2*",
+    "audible": "Audible*",
+    "suggest": "Suggested Action*",
+    "notes": "Notes",
+    "files": "Files",
+    "signature": "Signature"
+  },
+  "work_report_tab": {
+    "time_of_inspection": "Date and Time of Inspection",
+    "Inspector": "Inspector",
+    "are_bunds_clean": "Are bunds clean and less than 25% full of water?",
+    "any_leakages_visible": "Any leakages visible?",
+    "suggested_action": "Suggested action",
+    "notes": "Notes",
+    "files": "Files",
+    "signature": "Signature"
+  },
+  "history_tab": {
+    "history_not_available": "No history available"
+  },
+  "work_attachment_tab": {
+    "attachment_not_available": "No Attachment available"
+  },
+  "work_comment_tab": {
+    "comment_not_available": "No Attachment available"
+  },
+  "notification_tab": {
+    "notifications": "Notifications",
+    "no_notification_receive_yet": "No notification receive yet"
+  },
+  "asset_register_tab": {
+    "asset_register": "Dublin Demo Site",
+    "asset": " Assets, ",
+    "compliance": " Compliant, ",
+    "non_compliant": " Non-Compliant ",
+    "asset_id": "Asset ID",
+    "asset_type": "Asset Type",
+    "system_reference": "System Reference",
+    "system_type": "System Type",
+    "created": "Created",
+    "asset_owner": "Asset Owner",
+    "department": "Department",
+    "site": "Site",
+    "coordinates": "Asset Coordinates",
+    "additional_information": "Additional Information",
+    "drawing": "Drawings",
+    "upcoming_work": "Upcoming Works",
+    "recent_work": "Recent Works"
+  },
+  "task_types": {
+    "ALL TASK TYPES": "All task types",
+    "All task types": "All task types",
+    "AUDIT": "Audit",
+    "COMPLIANCE_CHECK": "Compliance check",
+    "OTHER": "Other",
+    "REPAIR": "Repair work",
+    "SAMPLING": "Sampling",
+    "SURVEY": "Survey",
+    "TESTING": "Testing"
+  },
+  "re_occurrence_types": {
+    "NA": "N/A",
+    "NEVER": "Do not repeat",
+    "YEARLY": "Repeats Yearly",
+    "MONTHLY": "Repeats Monthly",
+    "WEEKLY": "Repeats Weekly"
+  },
+  "notification_statuses": {
+    "TASK_REJECTED": "Task Rejected",
+    "TASK_ACCEPTED": "Task Accepted",
+    "TASK_ASSIGNED_TO_INTERNAL": "Task Assigned",
+    "CONTRACTOR_REQUESTED":"Contractor Access Requested",
+    "CONTRACTOR_ACCEPTED":"Contractor Access Accepted",
+    "CONTRACTOR_DENIED":"Contractor Access Rejected",
+    "CONTRACTOR_USER_REQUESTED":"Contractor User Access Requested",
+    "CONTRACTOR_USER_ACCEPTED":"Contractor User Access Accepted",
+    "CONTRACTOR_USER_DENIED":"Contractor User Access Denied",
+    "TASK_ASSIGNED_TO_CONTRACTOR":"Task Assigned",
+    "TASK_CONTRACTOR_ACCEPTED":"Task Accepted",
+    "TASK_CONTRACTOR_REJECTED":"Task Rejected",
+    "TASK_ASSIGNED_TO_CONTRACTOR_USER":"Task Assigned"
+  },
+  "assetTypes": {
+    "AIR_MONITOR": "Air Monitor/Location",
+    "BUNDS": "Bunds",
+    "GULLEY": "Gulley",
+    "INTERCEPTOR": "Interceptor",
+    "NOISE_MONITOR": "Noise Monitor / Location",
+    "ODOUR_MONITOR": "Odour Monitor / Location",
+    "DRAIN": "Drain / Pipe",
+    "MANHOLE": "Manhole",
+    "SAMPLING_POINT": "Sampling Point",
+    "SURFACE_WATER": "Surface water",
+    "GREASE_TRAP": "Grease Trap",
+    "PUMP": "Pump",
+    "GROUND_WATER": "Ground Water",
+    "BIOFILTER": "Biofilter",
+    "MISCELLANEOUS": "Miscellaneous",
+    "GENERAL_FACILITY": "General Facility"
+  },
+  "systemTypes": {
+    "STORM": "Storm",
+    "FOUL": "Foul",
+    "PROCESS": "Process",
+    "BUNDS": "Bunds",
+    "AIR": "Air",
+    "ODOUR": "Odour",
+    "NOISE": "Noise"
+  }
+}

@@ -1,0 +1,5 @@
+export default {
+    AUTH_TOKEN: 'AUTH_TOKEN',
+    HAS_SESSION: 'HAS_SESSION',
+    CURRENT_USER: 'CURRENT_USER',
+}
